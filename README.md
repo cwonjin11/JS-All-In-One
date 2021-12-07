@@ -1,12 +1,17 @@
-# All-In-One Javascript App
+# Javascript All-In-One App
 
-To develop and keep sharpen my Javascrtipt with CSS and HTML skills, I will keep adding more basic apps to this all-in-one application. 
+The purpose of this application is to keep learning and sharpening my skill set of Javascrtipt, CSS and HTML. It includes basic level of JS projects for beginners. I will keep adding more apps and functions to this all-in-one application. Happy coding!
 
 # Currently added 
 * Rain-Checker (Weather app)
 * Background-Color-Changer
 
-
+# How to run 
+cd in to any app folder and open index.html file to enjoy the app
+e.g. 
+  1. In your terminal type "cd rain-check"
+  2. Type "open index.html"
+  3. Have fun!
     
 
 ### Deployed Link: [(Javascript) All-In-One ]( to be added )
