@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 addColorEffectEvent=() => {
-    const btn = document.querySelector('button');
+    const btn = document.querySelector('#btn');
 
     const random = (number) => {
       return Math.floor(Math.random() * (number+1));
