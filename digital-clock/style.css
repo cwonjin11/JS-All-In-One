@@ -1,0 +1,19 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+.container {
+    color: rgb(60, 255, 0);
+    font-weight: bold;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
