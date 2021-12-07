@@ -44,6 +44,12 @@ button:hover {
     background: #7c7c7c9b;
 }
 
+button#back {
+    background: white;
+    color: black;
+}
+
+
 input.search-bar{
     border: none;
     outline: none;

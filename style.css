@@ -25,7 +25,7 @@ body {
 
 
 .header{
-    margin-top: 1px;
+    margin-top: 5rem;
     text-align: center;
     color: rgb(240, 240, 240);
     font-size: 20px;
@@ -36,19 +36,6 @@ a {
 }
 
 button {
-    /* font-size: 20px;
-    margin: 0.5em;
-    border-radius: 50%;
-    border: none;
-    height: 44px;
-    width: 44px;
-    outline: none;
-    background: #7c7c7c2b;
-    color: white;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-    outline:none; */
-    
     width: 180px;
     padding: 10px;
     margin: 10px;
@@ -77,10 +64,11 @@ button {
     font-size: 20px;
     width: 200px;
     height: 170px;
-    border: 1px solid white;
+    border: 3px solid black;
     text-align: center;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
+    margin-top: 30px;
     transition: 0.4s;
     border-radius: 15px;
 }
