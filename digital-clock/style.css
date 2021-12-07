@@ -11,10 +11,17 @@ body {
     color: rgb(60, 255, 0);
     font-weight: bold;
     font-size: 70px;
-    position: absolute;
+
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.container .date {
+    font-weight: bold;
+    font-size: 60px;
+    color:tomato;
 }
 
 .back_button {

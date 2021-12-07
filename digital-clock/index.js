@@ -5,9 +5,25 @@ document.addEventListener("click", (event) => {console.log("ʘ CLICKED ʘ👀", 
 document.addEventListener("DOMContentLoaded", () => {
 
     displayDigitalClock();
+    displayDate();
     addColorEffectEvent();
 
 })
+
+const displayDate = () => {
+    const currentDate = new Date();
+
+    const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    let currentMonth = month[currentDate.getMonth()];
+    let currentDay = currentDate.getDate();
+    let currentYear = currentDate.getFullYear();
+    // console.log(currentYear)
+    document.getElementById("month").innerHTML = currentMonth;
+    document.getElementById("date").innerHTML = currentDay;
+    document.getElementById("year").innerHTML = currentYear;
+
+
+}
 
 const displayDigitalClock = () => {
 
