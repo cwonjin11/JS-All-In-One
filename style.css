@@ -4,11 +4,13 @@ body {
     background: linear-gradient(to left top, red, orange, green, blue, indigo, violet);
 	background-size: 500% 1000%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
-
+	min-height: 100vh;
+    /* min-height: calc(100vh - 211px- 58px); */
     /* background-image: url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNreXxlbnwwfHwwfHw%3landscape'); */
     font-family: 'Open Sans', sans-serif;  /* open sans google font */
     font-size: 80%;
+    position: relative;
+    padding-bottom: 58px;
 }
 
 @keyframes gradient {
@@ -25,7 +27,7 @@ body {
 
 
 .header{
-    margin-top: 5rem;
+    margin-top: 3rem;
     text-align: center;
     color: rgb(240, 240, 240);
     font-size: 20px;
@@ -33,15 +35,17 @@ body {
 
 
 .footer {
-    position: fixed;
-    left: 0;
+    position: absolute;
+    /* left: 0; */
     bottom: 0;
     width: 100%;
-    margin-bottom: 30px;
+    padding: 20px;
+    /* margin-bottom: 10px; */
     font-size: 20px;
     background-color: transparent;
     color: black;
     text-align: center;
+
 }
 
 
