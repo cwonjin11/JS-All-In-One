@@ -5,6 +5,10 @@ The purpose of this application is to keep learning and sharpening my skill set 
 # Currently added 
 * Rain-Checker (Weather app)
 * Background-Color-Changer
+* Digital-Clock
+* TO-DO List
+* Age-Calculator
+
 
 # How to run 
 cd into chosen project folder and open index.html file to enjoy the app
