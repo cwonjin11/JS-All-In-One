@@ -7,11 +7,12 @@ The purpose of this application is to keep learning and sharpening my skill set 
 * Background-Color-Changer
 
 # How to run 
-cd in to any app folder and open index.html file to enjoy the app
-e.g. 
+cd into chosen project folder and open index.html file to enjoy the app
+
+* For example, 
   1. In your terminal type "cd rain-check"
   2. Type "open index.html"
   3. Have fun!
     
 
-### Deployed Link: [(Javascript) All-In-One ]( to be added )
+### Deployed Link: [(Javascript) All-In-One ](https://javascript-all-in-one.netlify.app/)
