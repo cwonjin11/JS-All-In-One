@@ -1,4 +1,12 @@
-const months = [31,28,31,30,31,30,31,30,31,30,31,30]
+
+// document.addEventListener("click", (event) => {console.log("ʘ CLICKED ʘ👀", event.target)})
+
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     ageCalculate();
+//     displayResult();
+//     leapChecker();
+// });
 
 const ageCalculate = () => {
     let today = new Date();
@@ -10,11 +18,12 @@ const ageCalculate = () => {
         month : inputDate.getMonth()+1,
         year : inputDate.getFullYear()
     }
+    
 
     let currentYear = today.getFullYear();
     let currentMonth = today.getMonth()+1;
     let currentDate = today.getDate();
-
+    // console.log(birthDetails)
     leapChecker(currentYear);
 
     if(
@@ -53,19 +62,19 @@ const ageCalculate = () => {
         }
         // console.log(birthYear, birthMonth, birthDate)
     }
-
     displayResult(birthDate, birthMonth, birthYear)
-
 }
+
+
 
 const displayResult = (bDate, bMonth, bYear) => {
     document.getElementById("years").textContent = bYear;
     document.getElementById("months").textContent = bMonth;
     document.getElementById("days").textContent = bDate;
-
-
 }
 
+
+const months = [31,28,31,30,31,30,31,30,31,30,31,30]
 
 const leapChecker = (year) => {
     if(year % 4 == 0 || (year % 100 == 0 || year % 400 == 0)){

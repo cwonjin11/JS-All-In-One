@@ -85,6 +85,7 @@ input{
 }
 
 button {
+    background-color: #D3b979;
     width: 30%;
     float: right;
 }
