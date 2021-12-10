@@ -47,7 +47,6 @@ const addh2TagTextColor = () => {
 const addPTagTextColor = () => {
 
     const pTag = document.querySelectorAll("p");
-    // console.log(pTag)
 
     const rand = (number) => {
     return Math.floor(Math.random() * (number+1));
@@ -65,7 +64,6 @@ const addPTagTextColor = () => {
 const addProjectBoarderColor = () => {
 
     const projBorder = document.querySelectorAll(".project")
-    console.log(projBorder)
 
     const random = (number) => {
         return Math.floor(Math.random() * (number+1));
