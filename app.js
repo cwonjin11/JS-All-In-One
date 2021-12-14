@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     addPTagTextColor();
     addh2TagTextColor();
     addProjectBoarderColor();
+    updateDate();
 
 })
 
@@ -74,4 +75,12 @@ const addProjectBoarderColor = () => {
         el.style.borderColor = randomColor;
       })
     })
+}
+
+const updateDate = () => {
+    let dateTime = new Date();
+        let year = dateTime.getFullYear();
+        let month = dateTime.getMonth() + 1;
+        let day = dateTime.getDate();
+        document.getElementById('date-time').innerHTML = month + "/" + day + "/" + year;
 }

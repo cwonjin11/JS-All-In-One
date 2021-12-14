@@ -140,7 +140,7 @@ img {
 
 p {
     text-align: center;
-    padding: 6px;
+    padding: 1px;
     -webkit-text-stroke: .4px navy; /* width and color */
 
     font-family: 'Open Sans', sans-serif;  color: white;
