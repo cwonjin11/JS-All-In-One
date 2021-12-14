@@ -19,7 +19,7 @@
     /* background-color: orange ; */
     bottom: 0px;
     background-image: url(cactus.png);
-    background-size: 60px 60px;
+    background-size: 60px 40px;
 }
 
 @keyframes slideright {
