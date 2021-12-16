@@ -10,7 +10,7 @@ const _checkBtn = document.getElementById('check-answer');
 const _playAgainBtn = document.getElementById('play-again');
 const _result = document.getElementById('result');
 
-let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 3;
+let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
 
 
 function eventListeners(){
