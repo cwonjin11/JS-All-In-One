@@ -146,10 +146,13 @@ p {
     font-family: 'Open Sans', sans-serif;  color: white;
 }
 #atag {
-  margin: 5px;
+  margin: 7px;
 }
 #atag:hover {
-  color:black
+  color:#34189C;
+  font-size: 2em;
+  transition: .5s ease-out;
+  opacity: 0.8;
 }
 
 .project {
