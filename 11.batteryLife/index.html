@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Battery Lif</title>
 </head>
 <body>
 
     <h1> Check Your Battery Life </h1>
-    <div class="container">
+    <h3> Click the button to see your local machine battery level</h3>
+    <h3> Refresh the page for the updated result</h3>
+<hr>
+
+    <div class="container">    
         <div id="lifeCheck"> 
-            <button>click</button><button id="refresh">refresh</button>
+            <button type="button" class="btn btn-primary custom">Click</button> 
+            <button type="button" class="btn btn-info custom" id="refresh">Refresh</button>
         </div>
         <div id="batteryLife">
             

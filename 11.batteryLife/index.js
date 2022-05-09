@@ -23,9 +23,12 @@ const getBatteryLife = () => {
 
             bLife.innerHTML = 
             `
-            <li>Current Level: ${battery.level * 100 + "%"}</li>
-            <li>Charging: ${battery.charging ? "Yes" : "No"}</li>
-            <li> disChargingTime: ${battery.dischargingTime == Infinity ? "Unplug the charger and wait.." : battery.dischargingTime / 60 + "mins"} </li>
+            <ul class="list-group">
+            <li class="list-group-item active" style="text-align: center"> Details </li>
+            <li class="list-group-item">Current Level: ${battery.level * 100 + "%"}</li>
+            <li class="list-group-item">Charging: ${battery.charging ? "Yes" : "No"}</li>
+            <li class="list-group-item"> disChargingTime: ${battery.dischargingTime == Infinity ? "Unplug the charger and wait.." : battery.dischargingTime / 60 + "mins"} </li>
+            </ul>
             `
         })
 

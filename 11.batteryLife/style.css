@@ -5,16 +5,18 @@ html, body {
 }
 
 h1 {
-    margin-top: 30px
+    margin-top: 30px;
+    text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+
 }
 
 #batteryLife {
     display: none;
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-    border: 3px solid green;
-    width: 33%;
+    width: 50%;
     margin: auto;
     margin-top: 10px;
     padding: 10px 10px 10px 20px;
@@ -23,4 +25,9 @@ h1 {
 
 #refresh{
     margin-left: 30px;
+}
+
+
+.custom {
+    width: 100px !important;
 }
