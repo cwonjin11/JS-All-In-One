@@ -13,6 +13,7 @@ html {
   
   .bg {
     animation:slide 3s ease-in-out infinite alternate;
+    /* animation:slide 3s ease-out; */
     background-image: linear-gradient(-60deg, #E33F84 50%, #34189C 50%);
     bottom:0;
     left:-50%;
@@ -170,7 +171,8 @@ p {
 
 .project:hover, button {
     cursor: pointer;
-    transform: scale(0.8, 0.8);
+    /* transform: scale(0.8, 0.8); */
+    transform: scale(1.2, 1.2);
 }
 
 
