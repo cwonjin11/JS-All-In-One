@@ -9,6 +9,7 @@ h1 {
 }
 
 #batteryLife {
+    display: none;
     background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
     linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
     linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
@@ -18,4 +19,8 @@ h1 {
     margin-top: 10px;
     padding: 10px 10px 10px 20px;
     text-align: left;  
+}
+
+#refresh{
+    margin-left: 30px;
 }

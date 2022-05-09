@@ -1,6 +1,7 @@
 
 const clickButton = document.getElementById("lifeCheck")
 const bLife = document.getElementById("batteryLife")
+const refreshButton = document.getElementById("refresh")
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -10,11 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 const getBatteryLife = () => {
+   
     navigator.getBattery().then( battery =>  {
         console.log(battery)
-           
         clickButton.addEventListener("click", () => {
             console.log(battery.dischargingTime)
+            
+            if (bLife.style.display !== "none") {
+                bLife.style.display = "block";
+            } 
+
             bLife.innerHTML = 
             `
             <li>Current Level: ${battery.level * 100 + "%"}</li>
@@ -23,5 +29,10 @@ const getBatteryLife = () => {
             `
         })
 
+
+        refreshButton.addEventListener("click", () => {
+            window.location.reload()
+        })
+        
     })  
 }
