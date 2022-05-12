@@ -1,3 +1,16 @@
 .container {
     text-align: center;
-  }
+}
+
+#character-count {
+    color: red;
+}
+#word-count {
+    color: blueviolet
+}
+
+#message {
+    padding: 10px;
+    border: 2px solid navy;
+    border-radius: 5px;
+}

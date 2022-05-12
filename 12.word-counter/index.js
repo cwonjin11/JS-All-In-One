@@ -2,16 +2,19 @@ document.addEventListener("DOMContentLoaded", () => {
     counter() 
 })
 
-const message = document.getElementById("message")
-const countChar = document.getElementById("character-count")
-const countWord = document.getElementById("word-count")
+
 
 
 const counter = () => {
     message.addEventListener('input', () => {    
+        const message = document.getElementById("message")
+        const countChar = document.getElementById("character-count")
+        const countWord = document.getElementById("word-count")
         const wordCount = message.value.split(" ").length
-        countChar.innerText = message.value.length
-        countWord.innerText = message.length == 0 ? "0" : wordCount 
+        
+        console.log(message.value.length)
+        countChar.innerText = message.value.trim() == "" ? "0" : message.value.length
+        countWord.innerText = message.value.trim() == "" ? "0" : wordCount 
     })
 }
 
