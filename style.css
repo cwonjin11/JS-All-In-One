@@ -91,8 +91,6 @@ html {
 }
 
 
-
-
 a {
     color: beige;
     text-decoration: none;
@@ -132,7 +130,7 @@ button {
 img {
     /* overflow: hidden; */
     position: absolute;
-    width: 220px;
+    width: 200px;
     height: 180px;
     opacity: 0.5;
     border-radius: 15px;
@@ -152,13 +150,13 @@ p {
 #atag:hover {
   color:#34189C;
   font-size: 2em;
-  transition: .5s ease-out;
+  transition: .4s ease-out;
   opacity: 0.8;
 }
 
 .project {
     font-size: 20px;
-    width: 220px;
+    width: 200px;
     height: 180px;
     border: 3px solid rgb(255, 254, 254);
     /* text-align: center; */
