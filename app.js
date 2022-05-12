@@ -3,7 +3,7 @@ document.addEventListener("click", (event) => {console.log("ʘ CLICKED ʘ👀", 
 
 document.addEventListener("DOMContentLoaded", () => {
     addTitleTextColor();
-    addPTagTextColor();
+    // addPTagTextColor();
     addh2TagTextColor();
     addProjectBoarderColor();
     updateDate();
